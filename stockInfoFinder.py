@@ -3,8 +3,10 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
-
+#List of stocks to find data for
 stocks = ['MSFT','AAPL','GOOG']
+
+#Google URL
 URL = 'http://www.google.com'
 
 #Start Headless Chrome Webdriver
